@@ -41,7 +41,7 @@ highscore = start_game(highscore)
 while True:
     restart = input("Would you like to try again? (y/n):     ").lower()
     if restart == "y":
-        print()
+        print("Alrighty, here we go again! ")
         highscore = start_game(highscore)
     elif restart == "n":
         print("Thank you for playing, see you again!")
